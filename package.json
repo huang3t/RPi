@@ -1,0 +1,23 @@
+{
+  "name": "rpi",
+  "version": "1.0.0",
+  "description": "2020 MakeNTU Rpi Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node socketClient/client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakeNTU2020/RPi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MakeNTU2020/RPi/issues"
+  },
+  "homepage": "https://github.com/MakeNTU2020/RPi#readme",
+  "dependencies": {
+    "socket.io-client": "^2.3.1"
+  }
+}
